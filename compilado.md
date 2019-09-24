@@ -25,3 +25,10 @@
 *? como delimitador*
 
 .+?, - Busca grupos de expresiones que terminen en , si se dejara sin el ? una expresión del tipo (kilo,peso,taco,tira) sería: kilo,peso,taco, pero con el ? nos da 3 distintas: kilo, peso, y taco,
+
+*Negar*
+
+\D - Busca todo lo que no es un dígito
+\W - Busca todo lo que no es una palabra.
+\S - Busca todo lo que no es White Spaces
+[^0-5a-c\s] - Busca todo lo que no es un dígito del 0 al 5, que no sea una letra de la a a la c y que no sea un White Space
