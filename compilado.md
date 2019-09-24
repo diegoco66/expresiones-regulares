@@ -21,3 +21,7 @@
 *Contadores*
 
 (\d{2,2}[\-\.]?){5,5} - Busca parejas de dos dígitos seguidas o no de un - o un . y esto repetido 5 veces
+
+*? como delimitador*
+
+.+?, - Busca grupos de expresiones que terminen en , si se dejara sin el ? una expresión del tipo (kilo,peso,taco,tira) sería: kilo,peso,taco, pero con el ? nos da 3 distintas: kilo, peso, y taco,
