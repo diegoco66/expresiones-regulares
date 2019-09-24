@@ -17,3 +17,7 @@
 \d?[a-z]?s\d+ - Puede o no haber un dígito seguido o no de una letra seguido de una "s" seguido de un número
 \d+[a-z]?s\d? - Debe ir un número seguido o no de una letra seguido de una "s" seguido o no de un dígito
 \d+[a-z]+s\d? - Debe ir un número seguido de letras seguido de una "s" seguido o no de un dígito
+
+*Contadores*
+
+(\d{2,2}[\-\.]?){5,5} - Busca parejas de dos dígitos seguidas o no de un - o un . y esto repetido 5 veces
