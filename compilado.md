@@ -39,3 +39,5 @@
 $ - Final de línea
 
 ^\w+,\w+,\w+$ - Busca las líneas que tienen una o + palabras seguido de , por 3 sin , al final
+
+^\+?\d{2,3}[^\da-z]?\d{2,3}[^\da-z]?\d{2,3}[#pe]?\d*$ - Busca números telefónicos formados por 3 parejas de números de 2 o 3 dígitos seguido de un carácter o no que no sea un dígito o letra y puede o no finalizar con un #, p o e seguido de otro número.
