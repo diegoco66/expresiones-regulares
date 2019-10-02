@@ -43,3 +43,5 @@ $ - Final de línea
 ^\+?\d{2,3}[^\da-z]?\d{2,3}[^\da-z]?\d{2,3}[#pe]?\d*$ - Busca números telefónicos formados por 3 parejas de números de 2 o 3 dígitos seguido de un carácter o no que no sea un dígito o letra y puede o no finalizar con un #, p o e seguido de otro número.
 
 https?:\/\/[\w\.]+\.\w{2,5}\/?\S* - Busca URL's que terminan en . de 2 a 5 caracteres y seguido de / y cualquier cosa hasta que encuentre un espacio en blanco
+
+[\w\._]{5,30}\+?[\w]{0,10}@[\w\.\-]{3,}\.\w{2,5} - Busca emails correctos en dominios como hotmail, Yahoo, Hotmail*_
